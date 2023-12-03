@@ -11,7 +11,7 @@
     }
         header{
             width:22% ;
-            height:138vh;
+            height:190vh;
             background-color:darkturquoise;
             display: flex;
             justify-content: space-around;
@@ -47,6 +47,21 @@
 
 
         }
+         #tb{
+        border:4px solid black;
+        width: 30%;
+        height: 50vh;
+        background-color: yellow;
+        
+        }    
+        #tb:hover{
+            width: 60%;
+            height: 120vh;
+
+
+        }
+        
+        
         
         
        
@@ -62,13 +77,24 @@
             
         }
         .bn{
-            width: 0px;
+            width: 40px;
             height: 20px;
             border-radius: 6px;
             background-color: coral;
+            border: 1px solid white;
            
         }
+        .bn i{
+            font-size: 14px;
+            color: black;
+            font-weight: 400;
+
+        }
+        .bn:hover i{
+            text-align: center;
+        }
         .bn.kl{
+
             animation-iteration-count: 1;
             animation-duration: 1s;
             animation-name: you;
@@ -81,6 +107,7 @@
                 width: 0%;
                 height: 18px;
                 background-color: coral;
+
 
             }
             50%{
@@ -109,7 +136,7 @@
         }
         section{
             width: 78%;
-            height: 138vh;
+            height: 190vh;
             background-color: rgb(242, 244, 248);
             display: flex;
             
@@ -198,13 +225,13 @@
        @media screen and (max-width:450px){
             header{
                 width:30%;
-                height:100vh;
+                height:190vh;
                justify-content: space-between;
                 
             }
             section{
                 width:70%;
-                height:100vh;
+                height:190vh;
             }
             #im{
                 width:100%;
@@ -237,6 +264,9 @@
            .w{
                font-size:8px;
            }
+           #tb:hover{
+                width: 100%;
+           {
            
                 
             
@@ -248,7 +278,7 @@
         <img src="WhatsApp Image 2023-07-19 at 22.34.34.jpg" alt="" id="im">
         <div id="to"></div>
         
-           <button id="f"><div class="bn"></div></button>
+           <div id="f"><div class="bn"><i>Click</i></div></div>
 
         
         <ul>
@@ -309,6 +339,16 @@
         
         <h2>LAGUAGE KNOWN:</h2>
         <i> HINDI/ENGLISH</i>
+        <h2>CERTIFICATE:</h2>
+        <br>
+
+        <table id="tb">
+            <tr>
+                <td bgcolor="black" rowspan="1"><img src="WhatsApp Image 2023-11-29 at 18.19.25_9684a537.jpg" alt="" width="100%" height="100%"></td>
+            </tr>  
+  
+        </table>
+       
        
 
     </section>
